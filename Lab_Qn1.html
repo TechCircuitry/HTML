@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<form action="">
+	<label>Name : </label>
+	<input type="text" name="name" placeholder="enter your name" maxlength="25" required> <br><br>
+	<label>email : </label>
+	<input type="text" name="email" placeholder="test@example.com" required autofocus><br><br>
+	<label>password : </label>
+	<input type="password" name="password" placeholder="enter a password" min="6" required><br><br>
+	<label>confirm password : </label>
+	<input type="password" name="confirm password" placeholder="confirm your password" required><br><br>
+
+	<label>select the category</label>
+	<select>
+		<option>student</option>
+		<option>employee</option>
+		<option selected>freelancer</option>
+	</select><br><br>
+	<label>select event date : </label>
+	<input type="date" name="event date" placeholder="event date" required><br><br>
+	<label>select required teckets : </label>
+	<input type="radio" name="ticket" value="1 ticket" >1 ticket
+	<input type="radio" name="ticket" value="2 tickets" checked>2 tickets
+	<input type="radio" name="ticket" value="3 tickets" >3 tickets <br><br>
+	<label>Payment option : </label>
+	<input type="checkbox" name="online payment" required> Online payment <br><br>
+	<label>Description : </label>
+	<textarea rows="3" cols="60" placeholder="notes"></textarea> <br><br>
+	<label>submit : </label>
+	<input type="submit" name="submit">
+	</form>
+</body>
+</html>
